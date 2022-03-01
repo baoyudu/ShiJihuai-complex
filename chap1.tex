@@ -789,8 +789,12 @@ $\left[\frac12,\frac23\right]$的单位圆盘则是一个三连通域.
 
 设$a=\alpha+\ii\beta,z_0=x_0+\ii y_0,f(z)=u(x,y)+\ii v(x,y)$，由下面的不等式
 \begin{align*}
- &|u(x,y)-\alpha|\le |f(z)-\alpha|+|v(x,y)-\beta|,\\
- &|v(x,y)-\beta|\le |f(z)-\alpha|+|v(x,y)-\beta|
+
+|u(x, y)-\alpha| & \leqslant|f(z)-a| \\
+& \leqslant|u(x, y)-\alpha|+|v(x, y)-\beta|, \\
+|v(x, y)-\beta| & \leqslant|f(z)-a| \\
+& \leqslant|u(x, y)-\alpha|+|v(x, y)-\beta|
+
 \end{align*}
 知道，$\lim_{z\to z_0}f(z)=a$的充分必要条件为
 \[\lim_{\substack{x\to x_0\\y\to y_0}}u(x,y)=\alpha,\quad \lim_{\substack{x\to x_0\\y\to y_0}}v(x,y)=\beta.\]
